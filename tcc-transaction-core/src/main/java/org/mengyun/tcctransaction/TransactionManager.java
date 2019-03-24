@@ -179,4 +179,9 @@ public class TransactionManager {
         transaction.enlistParticipant(participant);
         transactionRepository.update(transaction);
     }
+
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }
+
